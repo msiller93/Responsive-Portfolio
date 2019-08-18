@@ -218,3 +218,52 @@ input[type=submit] {
 }
 
 
+/*Media Query Styling */
+
+@media screen and (max-width: 980px) {  
+  section, .header_main {
+      width: 700px;
+      margin: auto;
+  }
+  .links {
+      font-size: 25px;
+  }
+  p {
+      font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {  
+  section, .header_main  {
+      width: 600px;
+      margin: auto;
+  }
+  .links {
+      font-size: 20px;
+  }
+  p {
+      font-size: 90%;
+  }
+  img {
+      height: 250px;
+      width: 250px;
+  }
+}
+
+@media screen and (max-width: 640px) {  
+  section, .header_main  {
+      width: 400px;
+      margin: auto;
+  }
+  .links{
+      font-size: 15px;
+  }
+  p {
+      font-size: 80%;
+  }
+  img {
+      height: 250px;
+      width: 250px;
+  }
+}
+
